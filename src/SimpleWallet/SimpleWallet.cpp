@@ -76,7 +76,7 @@ const command_line::arg_descriptor<std::string> arg_password = { "password", "Wa
 const command_line::arg_descriptor<uint16_t> arg_daemon_port = { "daemon-port", "Use daemon instance at port <arg> instead of 8081", 0 };
 const command_line::arg_descriptor<uint32_t> arg_log_level = { "set_log", "", INFO, true };
 const command_line::arg_descriptor<bool> arg_testnet = { "testnet", "Used to deploy test nets. The daemon must be launched with --testnet flag", false };
-const command_line::arg_descriptor< std::vector<std::string> > arg_command = { "command", "" };
+const command_line::arg_descriptor<std::vector<std::string> > arg_dumpspendkey = { "dumpspendkey", "Dumps the wallet spend key in plaintext" };
 
 
 bool parseUrlAddress(const std::string& url, std::string& address, uint16_t& port) {
