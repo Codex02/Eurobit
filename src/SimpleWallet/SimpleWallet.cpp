@@ -1083,7 +1083,7 @@ int main(int argc, char* argv[]) {
   command_line::add_arg(desc_params, arg_daemon_address);
   command_line::add_arg(desc_params, arg_daemon_host);
   command_line::add_arg(desc_params, arg_daemon_port);
-  command_line::add_arg(desc_params, arg_command);
+  command_line::add_arg(desc_params, arg_dumpspendkey);
   command_line::add_arg(desc_params, arg_log_level);
   command_line::add_arg(desc_params, arg_testnet);
   Tools::wallet_rpc_server::init_options(desc_params);
