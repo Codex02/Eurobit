@@ -92,6 +92,7 @@ namespace CryptoNote
     bool save(const std::vector<std::string> &args);
     bool reset(const std::vector<std::string> &args);
     bool set_log(const std::vector<std::string> &args);
+    bool dumpspendkey(const std::vector<std::string> &args = std::vector<std::string>());
 
     bool ask_wallet_create_if_needed();
 
