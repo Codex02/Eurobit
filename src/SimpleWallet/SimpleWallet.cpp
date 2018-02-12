@@ -1061,7 +1061,7 @@ bool simple_wallet::print_address(const std::vector<std::string> &args/* = std::
 }
 //----------------------------------------------------------------------------------------------------
 bool simple_wallet::dumpspendkey(const std::vector<std::string> &args/* = std::vector<std::string()*/) {
-  success_msg_writer() << m_wallet->getAddressSpendKey();
+  success_msg_writer() << m_wallet->getAccountKeys();
   return true;
 }
 //----------------------------------------------------------------------------------------------------
