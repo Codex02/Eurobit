@@ -16,7 +16,6 @@
 // along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "SimpleWallet.h"
-#include "IWallet.h"
 
 #include <ctime>
 #include <fstream>
@@ -50,6 +49,7 @@
 #include "Wallet/WalletGreen.h"
 
 #include "version.h"
+#include "IWallet.h"
 
 #include <Logging/LoggerManager.h>
 
